@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+/* Nav bar */
+nav {
+    background-color: #ffffff;
+    border-bottom: #dbdbdb 1px solid;
+}
+
+.insta-logo {
+    position: relative;
+    top: 7px;
+}
+
+.lil-nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.search{
+    width: 100px;
+    padding: 5px 0px 5px 50px;
+    background-color: #fafafa;
+    border: #c5c4c4 1px solid;
+    border-radius: 3px;
+    position: relative;
+    top: -15px;
+    left: 200px;
+}
+
+#search {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: -13px;
+    left: 80px;
+}
+
+.home {
+    position: relative;
+    left: 430px;
+}
+
+.dir-msg {
+    position: relative;
+    left: 435px;
+}
+
+.discover-pple {
+    position: relative;
+    left: 440px;
+}
+
+.follow {
+    position: relative;
+    top: 5px;
+    left: 445px;
+}
+
+.profile {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 450px;
+}
+
+/* Instagram Stories and Personal Info */
+header {
+    display: flex;
+    margin: 30px 0px;
+}
+
+.top {
+    width: 30%;
+    margin-left: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    top: 80px;
+    left: 800px;
+    z-index: 1;
+}
+
+.user, .user-params {
+    display: inline-block;
+}
+
+.user-params {
+    position: relative;
+    top: -25px;
+    left: 10px;
+}
+
+.user-params #user-handle {
+    font-size: 14px;
+    font-weight: bold;
+    color: #262626;
+}
+
+.user-params #user-name {
+    display: block;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.user img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.stories {
+    display: flex;
+    width: 50%;
+    height: auto;
+    border: #c5c4c4 1px solid;
+    border-radius: 3px;
+    overflow-x: scroll;
+    margin-left: 140px;
+}
+
+.story {
+    margin: 5px 5px;
+}
+
+.story img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.story p {
+    font-size: 12px;
+    color: #262626;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main content */
+main {
+    display: flex;
+}
+
+.container {
+    background-color: #fafafa;
+    width: 50%;
+    height: auto;
+    margin-left: 140px;
+}
+
+.container .posts .posts-logo img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.posts-logo {
+    margin-left: 10px;
+}
+
+.posts {
+    background-color: #ffffff;
+    margin-bottom: 60px;
+    padding-top: 10px;
+    border: #c5c4c4 1px solid;
+    border-radius: 3px;
+}
+
+.posts .icons .bookmark {
+    position: relative;
+    left: 495px;
+    top: -4px;
+}
+
+.icons {
+    margin: 0px 5px;
+}
+
+.posts .icons .direct-msg {
+    position: relative;
+    top: -4px;
+}
+
+.posts .post-content {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #262626;
+    margin: 0px 10px;
+}
+
+.post-content .post-text {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.post-content .light {
+    color: #8e8e8e;
+}
+
+.post-content a {
+    display: block;
+    text-decoration: none;
+    color: #8e8e8e;
+    margin-bottom: 5px;
+}
+
+.post-content .time {
+    font-size: 10px;
+    color: #8e8e8e;
+    margin: 7px 0px;
+}
+
+.post-content .hearts {
+    width: 15px;
+    height: auto;
+    position: relative;
+    top: -15px;
+    left: 520px;
+}
+
+.posts-logo, .handle {
+    display: inline-block;
+}
+
+.handle {
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+.handle img, p {
+    display: inline-block;
+}
+
+.handle img {
+    position: relative;
+    left: 520px;
+    width: 15px;
+}
+
+.handle p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #262626;
+    font-size: 14px;
+}
+
+.post-img {
+    width: 100%;
+    height: auto;
+}
+
+.posts .post-footer {
+    padding: 20px 0px;
+    border-top: #c5c4c4 1px solid;
+}
+
+.btn {
+    border: none;
+    background-color: #ffffff;
+    color: #c5c4c4;
+}
+
+.add {
+    margin-left: 10px;
+}
+
+.post {
+    color: rgb(149, 149, 199);
+    float: right;
+    margin-right: 10px;
+}
+
+.side-bar {
+    width: 30%;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 3%;
+    position: fixed;
+    top: 180px;
+    left: 800px;
+    z-index: 2;
+}
+
+.side-bar .suggestions .header {
+    font-size: 14px;
+    font-weight: bold;
+    color: #8e8e8e;
+}
+
+.side-bar .suggestions .text {
+    font-size: 14px;
+    color: #262626;
+    position: relative;
+    left: 100px;
+}
+
+.suggestions .suggest img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.suggest .suggest-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #262626;
+    display: block;
+    position: relative;
+    top: -40px;
+    left: 45px;
+}
+
+.suggest .suggest-tag {
+    font-size: 12px;
+    color: #8e8e8e;
+    position: relative;
+    top: -43px;
+    left: 45px;
+}
+
+.btn-follow {
+    border: none;
+    background-color: #fafafa;
+    color: #0095f6;
+    position: relative;
+    top: -50px;
+    left: 135px;
+}
+
+.one {
+    position: relative;
+    top: 10px;
+}
+
+.two {
+    position: relative;
+    top: -30px;
+}
+
+.three {
+    position: relative;
+    top: -70px;
+}
+
+.four {
+    position: relative;
+    top: -110px;
+}
+
+.five {
+    position: relative;
+    top: -150px;
+}
+
+.six {
+    position: relative;
+    top: -190px;
+}
+
+.side-bar .footer {
+    width: 320px;
+    position: relative;
+    top: -220px;
+}
+
+.side-bar .footer a {
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+.side-bar .footer .period {
+    color: #8e8e8e;
+    position: relative;
+    top: -3px;
+    left: 2px;
+}
+
+.copyrights {
+    display: block;
+    margin-top: 20px;
+}
